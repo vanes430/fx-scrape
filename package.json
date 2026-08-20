@@ -1,0 +1,21 @@
+{
+  "name": "fx-scrape",
+  "version": "1.0.0",
+  "description": "OpenAI-compatible proxy server for Vercel AI Gateway / FX",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch run src/index.ts",
+    "test": "bun run test/test-e2e.ts",
+    "test:tools": "bun run test/test-tools.ts",
+    "test:models": "bun run test/test-models.ts"
+  },
+  "dependencies": {
+    "elysia": "^1.4.29",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}

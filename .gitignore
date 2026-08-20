@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env*.local
+.env.production
+.env.development
+!.env.example
+
+# Auth & session data
+.session.json
+.key
+
+# Tooling & cache
+.omo/
+.codegraph/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+*.swp
+*.swo
